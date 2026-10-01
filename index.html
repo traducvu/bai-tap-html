@@ -68,7 +68,52 @@
 <th>8,5</th>
 </tr>
 </table>
-  
+  <br>
+ <h1>Form đăng ký sinh viên</h1>
+
+    <form>
+
+        <label>Họ tên:</label>
+        <input type="text" name="hoten" placeholder="Nhập họ tên" required>
+        <br><br>
+
+        <label>Email:</label>
+        <input type="email" name="email" placeholder="Nhập email" required>
+        <br><br>
+
+        <label>Mật khẩu:</label>
+        <input type="password" name="matkhau" placeholder="Nhập mật khẩu">
+        <br><br>
+
+        <label>Giới tính:</label>
+        <input type="radio" name="gioitinh" value="nam"> Nam
+        <input type="radio" name="gioitinh" value="nu"> Nữ
+        <br><br>
+
+        <label>Sở thích:</label>
+        <br>
+        <input type="checkbox" name="sothich" value="laptrinh"> Lập trình
+        <input type="checkbox" name="sothich" value="game"> Chơi game
+        <input type="checkbox" name="sothich" value="amnhac"> Nghe nhạc
+        <br><br>
+
+        <label>Ngành học:</label>
+        <select name="nganhhoc">
+            <option value="cntt">CNTT</option>
+            <option value="kinhte">Kinh tế</option>
+            <option value="dientu">Điện tử</option>
+        </select>
+        <br><br>
+
+        <label>Ghi chú:</label>
+        <br>
+        <textarea name="ghichu" rows="5" cols="40" placeholder="Nhập ghi chú"></textarea>
+        <br><br>
+
+        <input type="submit" value="Gửi đăng ký">
+
+    </form>
+
 </body>
 </html>
 ​
